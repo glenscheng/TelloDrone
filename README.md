@@ -1,4 +1,4 @@
-# TelloDrone
+# TelloDrone Face Tracker (Follow Me Drone)
 
 # Hardware
 [DJI Tello Drone](http://store.dji.com/product/tello) (~$100) <br>
