@@ -1,7 +1,7 @@
 # TelloDrone
 
 # Hardware
-[DJI Tello Drone]([url](https://store.dji.com/product/tello?vid=38421)) (~$100)
+[DJI Tello Drone](https://store.dji.com/product/tello?vid=38421) (~$100)
 
 # Set-up
 - Install Python 3.7
