@@ -1,7 +1,7 @@
 # TelloDrone
 
 # Hardware
-[DJI Tello Drone](https://store.dji.com/product/tello?vid=38421) (~$100)
+[DJI Tello Drone](http://store.dji.com/product/tello) (~$100) <br>
 
 # Set-up
 - Install Python 3.7
@@ -10,8 +10,8 @@
 - Update drone firmware from Tello app
 
 # Run program
-- turn on drone
-- connect to its Wi-Fi on your laptop with the Python script
+- Turn on drone
+- Connect to its Wi-Fi on your laptop with the Python script (_TELLO-xxxxxx_)
 - `python3 FaceTracking.py`
 
 # Stop program
