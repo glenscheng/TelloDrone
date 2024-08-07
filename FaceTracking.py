@@ -29,7 +29,6 @@ def main():
         img = cv2. resize(img, (w, h))  # resize image
         img, face_info = findFace(img)
         yaw_prev_error, ud_prev_error = trackFace(drone, face_info, w, h, pid, yaw_prev_error, ud_prev_error)
-        # print(face_info)
         cv2.imshow("Output", img)
         if cv2.waitKey(1) & 0xFF == ord('q'):
             drone.land()
@@ -93,8 +92,6 @@ def trackFace(drone, face_info, w, h, pid, prev_yaw_error, prev_ud_error):
 
     # Set drone speeds
     drone.send_rc_control(0, fb_speed, -ud_speed, yaw_speed)
-
-    print("fb: {}, -ud: {}, yaw: {}".format(fb_speed, -ud_speed, yaw_speed))
     
     return yaw_error, ud_error
 
